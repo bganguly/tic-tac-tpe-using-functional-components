@@ -1,29 +1,30 @@
 import Square from "./Square";
 
-const renderSquare = (squares,onClick,i) => {
-  return <Square
-    value = {squares[i]}
-    onClick = {() => onClick(i)}
-  />;
-}
+const renderARowOfSquares = (row, cols, squares, onClick) => {
+  return (
+    <div key={row} className="board-row">
+      {cols.map( col => {
+          return <Square
+            key={col}
+            value = {squares[col+row]}
+            onClick = {() => onClick(col+row)}
+          />
+      })}
+    </div>
+  )
+};
+
+const renderAllSquares = (squares, onClick) => {
+  return [0,3,6].map((row) => {
+      return renderARowOfSquares(row, [0,1,2],squares,onClick)
+  })
+};
 
 const  Board = ({squares, onClick}) => {
   return (
     <div>
       <div className="board-row">
-        {renderSquare(squares, onClick,0)}
-        {renderSquare(squares, onClick,1)}
-        {renderSquare(squares, onClick,2)}
-      </div>
-      <div className="board-row">
-        {renderSquare(squares, onClick,3)}
-        {renderSquare(squares, onClick,4)}
-        {renderSquare(squares, onClick,5)}
-      </div>
-      <div className="board-row">
-        {renderSquare(squares, onClick,6)}
-        {renderSquare(squares, onClick,7)}
-        {renderSquare(squares, onClick,8)}
+        {renderAllSquares(squares, onClick)}
       </div>
     </div>
   );

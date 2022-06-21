@@ -15,7 +15,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### improvements - TBD ###
 - Display the location for each move in the format (col, row) in the move history list.
 - Bold the currently selected item in the move list.
-- Rewrite Board to use two loops to make the squares instead of hardcoding them.
+- ~~Rewrite Board to use two loops to make the squares instead of hardcoding them.~~  
+-- done- see [linky](https://github.com/bganguly/tic-tac-toe-using-functional-components/blob/03-removed-hard-coded-repitition-in-boardjs/src/components_functional/Board.js)
 - Add a toggle button that lets you sort the moves in either ascending or descending order.
 - When someone wins, highlight the three squares that caused the win.
 - When no one wins, display a message about the result being a draw.

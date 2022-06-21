@@ -1,4 +1,4 @@
-const Square = () => {
+const Square = ({onClick, value }) => {
   return (
     <button
       className="square"

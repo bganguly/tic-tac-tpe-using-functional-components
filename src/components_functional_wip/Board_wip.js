@@ -1,6 +1,6 @@
-import Square from "./Square";
+import Square from "./Square_wip";
 
-const renderSquare = i => {
+const renderSquare = (i,squares,onClick) => {
   return <Square
     value = {squares[i]}
     onClick = {() => onClick(i)}

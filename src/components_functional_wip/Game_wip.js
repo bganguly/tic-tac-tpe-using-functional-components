@@ -1,5 +1,5 @@
 import React from 'react';
-import Board from "./Board";
+import Board from "./Board_wip";
 
 const calculateWinner = squares => {
   const lines = [
@@ -96,3 +96,5 @@ class Game extends React.Component {
     );
   }
 }
+
+export default Game

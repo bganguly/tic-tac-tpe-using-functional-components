@@ -1,7 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
-
+This work refactors the [tic-tac-toe react tutorial](https://reactjs.org/tutorial/tutorial.html) to use hooks and complete the improvements suggested.  
 Main emphahsis is:  
 - refactor to use functional components and demonastrate useState hook
 - systematically wrap up all the TBDs in the original tutorial

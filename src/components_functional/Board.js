@@ -22,11 +22,11 @@ const renderAllSquares = (squares, onClick) => {
 
 const  Board = ({squares, onClick}) => {
   return (
-    <div>
+    <>
       <div className="board-row">
         {renderAllSquares(squares, onClick)}
       </div>
-    </div>
+    </>
   );
 }
 

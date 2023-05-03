@@ -6,6 +6,14 @@ body {
 ol, ul {
   padding-left: 30px;
 }
+li > button {
+  font-size: 14px;
+}
+
+li > span {
+  font-size: 14px;
+  padding-left: 8px;
+}
 
 .board-row:after {
   clear: both;

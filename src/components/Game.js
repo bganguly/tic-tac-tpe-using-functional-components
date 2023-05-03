@@ -18,6 +18,12 @@ const Game = () => {
     setCurrentMove(nextMove);
   }
 
+  const returnTextOrButton = (move, description) => {
+    return move === currentMove 
+    ? <span>{description}</span>
+    : <button onClick={() => jumpTo(move)}>{description}</button>
+  }
+
   const moves = history.map((squares, move) => {
     let description;
     if (move > 0) {
@@ -27,7 +33,7 @@ const Game = () => {
     }
     return (
       <li key={move}>
-        <button onClick={() => jumpTo(move)}>{description}</button>
+        {returnTextOrButton(move, description)}
       </li>
     );
   });

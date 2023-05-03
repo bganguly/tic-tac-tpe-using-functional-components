@@ -8,7 +8,6 @@ Main emphahsis is:
 ### Refactoring to use hooks ###
 - ~~split single index.js into separate component files~~  
 -- done. see [branch 01](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/01-split-indexjs-into-individual-files)  
-see <a href="https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/01-split-indexjs-into-individual-files" target="_blank">Branch 01</a> 
 - ~~rewrite two class based components to be functional and use hooks~~  
 -- done. see [branch 02](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/02-use-functional-components-and-hooks)
 

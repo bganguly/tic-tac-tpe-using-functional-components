@@ -1,7 +1,15 @@
-This work refactors the [legacy tic-tac-toe react tutorial](https://legacy.reactjs.org/tutorial/tutorial.html) to use hooks and to complete the improvements suggested in that tutorial.  
+This work refactors the [legacy tic-tac-toe react tutorial](https://legacy.reactjs.org/tutorial/tutorial.html) to use hooks and to complete the improvements suggested in the current tutorial [current react tutorial - 5/2/23](https://react.dev/learn/tutorial-tic-tac-toe#wrapping-up).  
+
+Run simply as:
+```
+git clone
+cd to folder
+npm i
+npm start
+```
 
 Main emphahsis is:  
-- refactor to use functional components and demonastrate useState hook
+- refactor to use functional components and demonastrate hooks
 - systematically wrap up all the suggested improvements in the tutorial - see https://reactjs.org/tutorial/tutorial.html#wrapping-up
 
 ![Screen Shot 2022-03-03 at 8 40 16 AM](https://user-images.githubusercontent.com/627740/156610041-59b38fba-8868-4b5f-b355-7cd1cbe329c4.png)

@@ -7,14 +7,15 @@ Main emphahsis is:
 
 ### Refactoring to use hooks ###
 - split single index.js into separate component files  
--- done. see [brannch 01](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/01-split-indexjs-into-individual-files)  
+-- done. see [branch 01](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/01-split-indexjs-into-individual-files)  
 - rewrite two class based components to be functional and use hooks  
 -- done. see [branch 02](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/02-use-functional-components-and-hooks)
 
 ### Other improvements - TBD ###
 - ~~Rewrite Board to use two loops to make the squares instead of hardcoding them.~~  
 -- done- see [branch 03](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/03-removed-hard-coded-repitition-in-boardjs)  
-- Refactor the args and params and simplify some variables 
+- Refactor the args and params and simplify some variables  
+-- done. see [branch 04](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/04-refactored-certain-props-and-variables)  
 - For the current move only, show “You are at move #…” instead of a button.  
 - Add a toggle button that lets you sort the moves in either ascending or descending order.
 - When someone wins, highlight the three squares that caused the win.

@@ -16,8 +16,10 @@ Main emphahsis is:
 -- done- see [branch 03](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/03-removed-hard-coded-repitition-in-boardjs)  
 - ~~Rewrite based on update tutorial as of 5/2/23, refactor the args and params, simplify some variables and add back the de-duplication of sqaures rendering code~~  
 -- done. see [branch 04](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/04-refactored-certain-props-and-variables)  
-- For the current move only, show “You are at move #…” instead of a button.  
-- Add a toggle button that lets you sort the moves in either ascending or descending order.
+- ~~For the current move only, show “You are at move #…” instead of a button.~~  
+-- done- see [branch 05](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/05-show-text-instead-of-button-for-current-move)  
+- ~~Add a toggle button that lets you sort the moves in either ascending or descending order.~~  
+-- done- see [branch 06](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/06-allow-moves-to-be-sorted)  
 - When someone wins, highlight the three squares that caused the win.
 - When no one wins, display a message about the result being a draw.  
 - Display the location for each move in the format (col, row) in the move history list.  

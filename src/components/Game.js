@@ -7,6 +7,7 @@ const Game = () => {
   const [currentMove, setCurrentMove] = useState(0);
   const xIsNext = currentMove % 2 === 0;
   const currentSquares = history[currentMove];
+  const [ascOrder, setAscOrder] = useState(true);
 
   const handlePlay = nextSquares => {
     const nextHistory = [...history.slice(0, currentMove + 1), nextSquares];
@@ -25,12 +26,7 @@ const Game = () => {
   }
 
   const moves = history.map((squares, move) => {
-    let description;
-    if (move > 0) {
-      description = 'Go to move #' + move;
-    } else {
-      description = 'Go to game start';
-    }
+    const description = move > 0 ? 'Go to move #' + move : 'Go to game start';
     return (
       <li key={move}>
         {returnTextOrButton(move, description)}
@@ -44,8 +40,16 @@ const Game = () => {
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
       <div className="game-info">
-        <ol>{moves}</ol>
+        <ol>{ascOrder ? moves: moves.reverse()}</ol>
       </div>
+      {currentMove > 0 &&
+        <div className="game-info">
+          <div class='center-vertically'>
+            <button onClick={() => setAscOrder(!ascOrder)}>sort moves</button>
+          </div>
+        </div>
+      }
+
     </div>
   );
 }

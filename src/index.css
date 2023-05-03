@@ -57,3 +57,8 @@ li > span {
   margin-left: 20px;
 }
 
+.game-info > div {
+  padding: 75% 0;
+  text-align: center;
+}
+

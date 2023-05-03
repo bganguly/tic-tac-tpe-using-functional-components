@@ -13,7 +13,7 @@ Main emphahsis is:
 
 ### Other improvements - TBD ###
 - ~~Rewrite Board to use two loops to make the squares instead of hardcoding them.~~  
--- done- see [branch 03](https://github.com/bganguly/tic-tac-toe-using-functional-components/blob/03-removed-hard-coded-repitition-in-boardjs/src/components_functional/Board.js)  
+-- done- see [branch 03](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/03-removed-hard-coded-repitition-in-boardjs)  
 - Refactor the args and params and simplify some variables 
 - For the current move only, show “You are at move #…” instead of a button.  
 - Add a toggle button that lets you sort the moves in either ascending or descending order.

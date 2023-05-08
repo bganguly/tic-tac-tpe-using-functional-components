@@ -29,6 +29,7 @@ Main emphahsis is:
 -- done- see [branch 05](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/05-show-text-instead-of-button-for-current-move)  
 - ~~Add a toggle button that lets you sort the moves in either ascending or descending order.~~  
 -- done- see [branch 06](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/06-allow-moves-to-be-sorted)  
-- When someone wins, highlight the three squares that caused the win.
-- When no one wins, display a message about the result being a draw.  
+- ~~When someone wins, highlight the three squares that caused the win.~~
+- ~~When no one wins, display a message about the result being a draw.~~  
+-- done - see [branch 07](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/07-highlight-winning-squares) 
 - Display the location for each move in the format (col, row) in the move history list.  

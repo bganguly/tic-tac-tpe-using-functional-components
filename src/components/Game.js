@@ -42,7 +42,7 @@ const Game = () => {
     const [row, col] = getRowColOfMove(squares, move);
     const description = 
       move > 0 
-      ? 'Go to move #' + move + ` ( col: ${col} , row: ${row} )`
+      ? 'Go to move #' + move + ` ( row: ${row} , col: ${col} )`
       : 'Go to game start';
     return (
       <li key={move}>

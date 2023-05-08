@@ -44,7 +44,7 @@ const Game = () => {
       </div>
       {currentMove > 0 &&
         <div className="game-info">
-          <div class='center-vertically'>
+          <div className='center-vertically'>
             <button onClick={() => setAscOrder(!ascOrder)}>sort moves</button>
           </div>
         </div>

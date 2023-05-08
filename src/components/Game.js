@@ -25,8 +25,25 @@ const Game = () => {
     : <button onClick={() => jumpTo(move)}>{description}</button>
   }
 
+  const getRowColOfMove = (squares, move) =>  {
+    if (move > 0) {
+      for (let i=0; i< squares.length; i++) {
+        let row = Math.floor(i / 3);
+        let col = i - 3 * row;
+        if (history[move][i] !== history[move -1][i]) {
+          return [row, col];
+        }
+      }
+    }
+    return [0,0];
+  }
+
   const moves = history.map((squares, move) => {
-    const description = move > 0 ? 'Go to move #' + move : 'Go to game start';
+    const [row, col] = getRowColOfMove(squares, move);
+    const description = 
+      move > 0 
+      ? 'Go to move #' + move + ` ( col: ${col} , row: ${row} )`
+      : 'Go to game start';
     return (
       <li key={move}>
         {returnTextOrButton(move, description)}

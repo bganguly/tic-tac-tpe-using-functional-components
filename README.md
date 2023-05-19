@@ -12,7 +12,7 @@ Main emphahsis is:
 - refactor to use functional components and demonastrate hooks
 - systematically wrap up all the suggested improvements in the tutorial - see https://reactjs.org/tutorial/tutorial.html#wrapping-up
 
-![Screen Shot 2023-05-18 at 11 04 18 PM](https://github.com/bganguly/tic-tac-toe-using-functional-components/assets/627740/3de049c6-a6b3-47e4-8d45-98f7618d12c6)
+![Screen Shot 2023-05-18 at 11 10 11 PM](https://github.com/bganguly/tic-tac-toe-using-functional-components/assets/627740/3e5cf0e9-31fb-4b22-9b77-fada829a012a)
 
 ### Refactoring to use hooks ###
 - ~~split single index.js into separate component files~~  
@@ -28,7 +28,7 @@ Main emphahsis is:
 - ~~For the current move only, show “You are at move #…” instead of a button.~~  
 -- done- see [branch 05](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/05-show-text-instead-of-button-for-current-move)  
 - ~~Add a toggle button that lets you sort the moves in either ascending or descending order.~~  
--- done- (this branch) 
+-- done- see [branch 06](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/06-allow-moves-to-be-sorted)  
 - ~~When someone wins, highlight the three squares that caused the win.~~
 - ~~When no one wins, display a message about the result being a draw.~~  
 -- done - see [branch 07](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/07-highlight-winning-squares) 

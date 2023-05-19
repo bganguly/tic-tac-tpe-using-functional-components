@@ -22,7 +22,7 @@ Main emphahsis is:
 
 ### Other improvements done ###
 - ~~Rewrite Board to use two loops to make the squares instead of hardcoding them.~~  
--- done- (this branch). 
+-- done- (this branch) 
 - ~~Rewrite based on updated tutorial as of 5/2/23, refactor the args and params, simplify some variables and add back the de-duplication of sqaures rendering code~~  
 -- done. see [branch 04](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/04-refactored-certain-props-and-variables)  
 - ~~For the current move only, show “You are at move #…” instead of a button.~~  

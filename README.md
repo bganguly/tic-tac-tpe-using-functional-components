@@ -13,6 +13,7 @@ Main emphahsis is:
 - systematically wrap up all the suggested improvements in the tutorial - see https://reactjs.org/tutorial/tutorial.html#wrapping-up
 
 ![Screen Shot 2023-05-18 at 11 10 11 PM](https://github.com/bganguly/tic-tac-toe-using-functional-components/assets/627740/3e5cf0e9-31fb-4b22-9b77-fada829a012a)
+![Screen Shot 2023-05-18 at 11 11 45 PM](https://github.com/bganguly/tic-tac-toe-using-functional-components/assets/627740/8a14917a-707c-4bb3-b0e1-cd995fdb7a65)
 
 ### Refactoring to use hooks ###
 - ~~split single index.js into separate component files~~  

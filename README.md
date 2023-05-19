@@ -32,6 +32,6 @@ Main emphahsis is:
 -- done- see [branch 06](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/06-allow-moves-to-be-sorted)  
 - ~~When someone wins, highlight the three squares that caused the win.~~
 - ~~When no one wins, display a message about the result being a draw.~~  
--- done - see [branch 07](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/07-highlight-winning-squares) 
+-- done - (this branch)
 - ~~Display the location for each move in the format (row, col) in the move history list.~~  
 -- done - see [branch 08](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/08-show-col-row-of-each-move)

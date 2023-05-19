@@ -12,8 +12,9 @@ Main emphahsis is:
 - refactor to use functional components and demonastrate hooks
 - systematically wrap up all the suggested improvements in the tutorial - see https://reactjs.org/tutorial/tutorial.html#wrapping-up
 
-![Screen Shot 2023-05-18 at 11 10 11 PM](https://github.com/bganguly/tic-tac-toe-using-functional-components/assets/627740/3e5cf0e9-31fb-4b22-9b77-fada829a012a)
-![Screen Shot 2023-05-18 at 11 11 45 PM](https://github.com/bganguly/tic-tac-toe-using-functional-components/assets/627740/8a14917a-707c-4bb3-b0e1-cd995fdb7a65)
+![Screen Shot 2023-05-18 at 11 22 51 PM](https://github.com/bganguly/tic-tac-toe-using-functional-components/assets/627740/2d621f7f-71a6-4674-8c68-6ceb2780fa89)
+![Screen Shot 2023-05-18 at 11 22 20 PM](https://github.com/bganguly/tic-tac-toe-using-functional-components/assets/627740/cf06c8c3-8ec2-4b64-8e03-74b2c0eef529)
+
 
 ### Refactoring to use hooks ###
 - ~~split single index.js into separate component files~~  
@@ -32,6 +33,6 @@ Main emphahsis is:
 -- done- see [branch 06](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/06-allow-moves-to-be-sorted)  
 - ~~When someone wins, highlight the three squares that caused the win.~~
 - ~~When no one wins, display a message about the result being a draw.~~  
--- done - (this branch)
+-- done - see [branch 07](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/07-highlight-winning-squares)  
 - ~~Display the location for each move in the format (row, col) in the move history list.~~  
--- done - see [branch 08](https://github.com/bganguly/tic-tac-toe-using-functional-components/tree/08-show-col-row-of-each-move)
+-- done - (this branch)

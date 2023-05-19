@@ -38,15 +38,20 @@ const Game = () => {
     return [0,0];
   }
 
+  const setMoveText = (move, row, col) => {
+    const rolwColSuffix = ` ( row: ${row} , col: ${col} )`;
+    return move === 0 
+      ? 'Go to game start'
+      : move === currentMove 
+        ?  'You are at move #' + move + rolwColSuffix
+        :  'Go to move #' + move + rolwColSuffix;
+  }
+
   const moves = history.map((squares, move) => {
     const [row, col] = getRowColOfMove(squares, move);
-    const description = 
-      move > 0 
-      ? 'Go to move #' + move + ` ( row: ${row} , col: ${col} )`
-      : 'Go to game start';
     return (
       <li key={move}>
-        {returnTextOrButton(move, description)}
+        {returnTextOrButton(move, setMoveText(move, row, col))}
       </li>
     );
   });

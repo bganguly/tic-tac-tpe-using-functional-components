@@ -25,11 +25,16 @@ const Game = () => {
     : <button onClick={() => jumpTo(move)}>{description}</button>
   }
 
+  const setMoveText = move => 
+    move === 0 
+      ? 'Go to game start'
+      : move === currentMove 
+        ?  'You are at move #' + move :  'Go to move #' + move;
+  
   const moves = history.map((squares, move) => {
-    const description = move > 0 ? 'Go to move #' + move : 'Go to game start';
     return (
       <li key={move}>
-        {returnTextOrButton(move, description)}
+        {returnTextOrButton(move, setMoveText(move))}
       </li>
     );
   });
